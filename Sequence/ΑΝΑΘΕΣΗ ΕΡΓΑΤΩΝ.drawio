@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" modified="2026-05-18T00:00:00.000Z" agent="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="anathesi-ergaton-sequence" name="ΑΝΑΘΕΣΗ ΕΡΓΑΤΩΝ">
+    <mxGraphModel dx="2200" dy="1500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2300" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <mxCell id="title" value="Sequence Diagram - Ανάθεση Εργατών" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="500" height="30" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="actor" value="ΤΜΗΜΑ&#xa;ΠΑΡΑΓΩΓΗΣ" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="110" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="menu" value="ΜΕΝΟΥ" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="80" width="120" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="assignmentScreen" value="Οθόνη Ανάθεσης&#xa;Εργατών" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="150" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="availableList" value="Λίστα Διαθέσιμων&#xa;Έργων" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="505" y="80" width="150" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="positionsScreen" value="Οθόνη Θέσεων&#xa;Έργου" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="80" width="145" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="workerForm" value="Φόρμα Επιλογής&#xa;Εργατών" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="860" y="80" width="155" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="unavailableMsg" value="Μήνυμα &quot;Εργάτης&#xa;Μη Διαθέσιμος&quot;" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="80" width="160" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="work" value="Έργο" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="80" width="115" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="position" value="Θέση&#xa;Εργασίας" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1395" y="80" width="125" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="worker" value="Εργάτης" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="80" width="115" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="assignment" value="Ανάθεση&#xa;Εργάτη" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1715" y="80" width="130" height="1250" as="geometry"/>
+        </mxCell>
+        <mxCell id="availability" value="Διαθεσιμότητα&#xa;Εργάτη" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="80" width="150" height="1250" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="act-menu" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="224" y="145" width="12" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-screen" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="389" y="205" width="12" height="245" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-list" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="574" y="260" width="12" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-work-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="315" width="12" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-work-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1286" y="555" width="12" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-positions-screen" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="756" y="615" width="12" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-position" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1451" y="675" width="12" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-assignment" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1774" y="735" width="12" height="545" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-worker-form" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="932" y="795" width="12" height="480" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-worker" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1612" y="855" width="12" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-availability" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1959" y="915" width="12" height="235" as="geometry"/>
+        </mxCell>
+        <mxCell id="act-unavailable-msg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="1150" width="12" height="70" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="m1" value="selectAssignment()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="150" as="sourcePoint"/>
+            <mxPoint x="224" y="150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="display()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="236" y="205" as="sourcePoint"/>
+            <mxPoint x="389" y="205" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="loadAvailableWorks()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="260" as="sourcePoint"/>
+            <mxPoint x="574" y="260" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="getAvailableWorks()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="315" as="sourcePoint"/>
+            <mxPoint x="1286" y="315" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" value="returnWorks()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1286" y="390" as="sourcePoint"/>
+            <mxPoint x="586" y="390" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="displayList()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="574" y="445" as="sourcePoint"/>
+            <mxPoint x="401" y="445" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7" value="selectWork()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="500" as="sourcePoint"/>
+            <mxPoint x="574" y="500" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" value="loadWorkDetails()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="560" as="sourcePoint"/>
+            <mxPoint x="1286" y="560" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" value="returnPositionsAndAssignments()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1286" y="625" as="sourcePoint"/>
+            <mxPoint x="586" y="625" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9b" value="displayPositionsAndAssignments()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="650" as="sourcePoint"/>
+            <mxPoint x="756" y="650" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10" value="getOpenPositions()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="768" y="680" as="sourcePoint"/>
+            <mxPoint x="1451" y="680" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11" value="getExistingAssignments()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="768" y="740" as="sourcePoint"/>
+            <mxPoint x="1774" y="740" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12" value="selectWorkersForPositions()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="800" as="sourcePoint"/>
+            <mxPoint x="932" y="800" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" value="getWorkerDetails()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944" y="860" as="sourcePoint"/>
+            <mxPoint x="1612" y="860" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14" value="checkAvailability()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944" y="920" as="sourcePoint"/>
+            <mxPoint x="1959" y="920" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="alt-frame" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="1970" height="340" as="geometry"/>
+        </mxCell>
+        <mxCell id="alt-header" value="alt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="45" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="guard-a" value="[Διαθέσιμος - Βασική Ροή]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="225" y="955" width="260" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="alt-separator" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1110" as="sourcePoint"/>
+            <mxPoint x="2140" y="1110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="guard-b" value="[Μη Διαθέσιμος - Εναλλακτική Ροή]" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="225" y="1115" width="330" height="22" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="m15a" value="confirmAvailable()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1959" y="990" as="sourcePoint"/>
+            <mxPoint x="944" y="990" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16a" value="saveAssignment()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944" y="1035" as="sourcePoint"/>
+            <mxPoint x="1774" y="1035" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17a" value="closeAndReturn()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1774" y="1080" as="sourcePoint"/>
+            <mxPoint x="236" y="1080" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="m15b" value="returnStatus: unavailable()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1959" y="1150" as="sourcePoint"/>
+            <mxPoint x="944" y="1150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15b2" value="displayUnavailableMsg()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944" y="1175" as="sourcePoint"/>
+            <mxPoint x="1119" y="1175" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16b" value="acknowledge()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1119" y="1195" as="sourcePoint"/>
+            <mxPoint x="944" y="1195" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m17b" value="saveAvailableOnly()" style="endArrow=block;endFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="944" y="1240" as="sourcePoint"/>
+            <mxPoint x="1774" y="1240" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m18b" value="closeAndReturn()" style="endArrow=open;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1774" y="1275" as="sourcePoint"/>
+            <mxPoint x="236" y="1275" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
